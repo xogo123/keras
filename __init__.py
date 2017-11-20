@@ -20,6 +20,13 @@ try :
     import matplotlib.pyplot as plt
 except :
     print ('no pyplot')
+	
+if sys.platform == 'linux' or platform == 'linux2' :
+    dir = os.path.dirname(__file__)
+elif sys.platform == 'darwin' :
+    dir = os.path.dirname(__file__)
+elif sys.platform == 'win32' :
+    dir = os.getcwd()
 
 #dict_arg['model_name'] = get_model_name(dict_arg['model_type'])
 
