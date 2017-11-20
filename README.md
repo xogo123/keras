@@ -1,2 +1,2 @@
-# keras
-keras initialization
+# Prototype of Project
+initialization...
